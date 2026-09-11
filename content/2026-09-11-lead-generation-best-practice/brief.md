@@ -1,5 +1,7 @@
 # Brief: Lead-Generation Best Practice (Sanguine Legal Solutions)
 
+**Status: APPROVED** — approved by s.foley@sanguinesa.com in chat, 2026-09-11.
+
 Brand pack used: `brand-pack-snapshot.md` in this folder (fetched live from Notion, 2026-09-11T03:12:53.179Z). All later steps read that snapshot, not Notion.
 
 ## Pillar

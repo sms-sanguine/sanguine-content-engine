@@ -2,6 +2,14 @@
 
 Checked against `brand-pack-snapshot.md` in this folder. Files reviewed: `brief.md`, `source.md` (no channel variants exist yet — `/atomize` has not run on this piece).
 
+## Update — 2026-09-11, post-first-pass
+Per s.foley@sanguinesa.com in chat, three of the five original flags are resolved:
+- **Footnotes [^2] and [^3] cut.** Both citations, and the specific claims they supported, were removed from `source.md` rather than left unsourced — footnote [^1] is the only citation remaining, and it was never in question. See the updated **Claims and citations** section below.
+- **CTA confirmed current.** The `STATUS: NEEDS REVIEW` flag on the free lead-generation-review offer is resolved and removed from `source.md`.
+- **Signatory named.** The live Notion pack was updated and re-fetched; `brand-pack-snapshot.md` was re-synced to match (see **Drift check**, below, for the full diff). Sue Foley is now named in the pack as Brand and marketing owner and is confirmed as the signatory for this piece.
+
+The re-sync surfaced one thing worth flagging on its own: the pack's "Who signs off" list didn't just add Sue Foley, it also dropped the Legal/ethics review, Privacy/consent review, and Final publication authority rows that were previously "Unknown; confirm internally" — it no longer names anyone in those roles at all, rather than filling them in. Noted under **Compliance** below; not treated as blocking since the pack's own two remaining named roles are the ones actually being exercised here.
+
 ## Model integrity
 No instance found where the copy implies Sanguine performs the underlying service (finding, generating, or delivering leads/cases) rather than vetting and connecting.
 
@@ -24,13 +32,13 @@ Checked every service/entity mention against the coverage map:
 No naming blockers.
 
 ## Claims and citations
-Three footnoted claims, all sourced to real, specific pages found via live web search this session:
+**[^2] and [^3] cut, per direction.** Both the citations and the specific claims they supported (the "shared leads racing to call" line and the "resold, recycled, or re-aged... in writing" line) were removed from `source.md`, not just de-cited — consistent with "cut the claim" when a citation doesn't hold up. The surrounding paragraph was tightened so it reads cleanly with one example question instead of three.
 
-1. **[^1]** "is this vendor generating the lead itself, or reselling something bought from someone else and marked up" → Kurios, "How to Vet a Lead Vendor." Re-confirmed this session: Kurios's own summary of the article states it advises firms to confirm "whether it generates its own leads or resells them" as the first vetting question. Solid match.
-2. **[^2]** "Has it been resold, recycled, or re-aged, and will the vendor put that answer in writing" → Exclusive Leads Agency, "How to Vet an MVA Lead Provider: 12 Questions to Ask." This matches the original search summary of that page. A re-query this session surfaced other content from the same URL (pricing, DNC/consent compliance) without re-surfacing the exact resold/recycled/re-aged line, so I could not re-confirm this specific sentence word-for-word this pass — flagging for a human to spot-check that exact claim against the live page before publish.
-3. **[^3]** "shared with several others racing to call the same person first" → attributed to Mohr Marketing's "Exclusive Personal Injury Leads" guide. Re-confirmed this session that the page defines exclusive leads as "a strict one-to-one ratio... eliminates the friction of immediate competition," which supports the underlying claim, but the specific phrase "racing to call" traces back to a different, unattributed source in my original research pass (a multi-source search summary), not confirmed as mohrmktg.com's own wording. **Flag: tighten this citation or soften the phrasing before publish** — the concept is supported, the exact framing may not be this source's own language.
+One footnoted claim remains:
 
-**Link resolution:** I could not directly fetch any of the three URLs this session — outbound requests to `kuriosbrand.com`, `exclusiveleadsagency.com`, and `mohrmktg.com` were blocked by this sandbox's network egress policy (not a dead-link signal, a sandbox restriction). All three URLs and their exact page titles were independently re-confirmed live in search results this session, which is reasonable evidence they currently exist, but nobody has confirmed the pages return 200 and still contain the cited passages. **Flag: verify all three links resolve and still contain the quoted claims before this ships**, since neither this session nor the original draft pass could do that directly.
+1. **[^1]** "is this vendor generating the lead itself, or reselling something bought from someone else and marked up" → Kurios, "How to Vet a Lead Vendor." Re-confirmed this session: Kurios's own summary of the article states it advises firms to confirm "whether it generates its own leads or resells them" as the first vetting question. Solid match. This citation was never in question and stayed as-is.
+
+**Link resolution (carried-over flag):** I still could not directly fetch this URL — outbound requests to `kuriosbrand.com` were blocked by this sandbox's network egress policy (not a dead-link signal, a sandbox restriction). The URL and its exact page title were independently re-confirmed live in search results this session, which is reasonable evidence it currently exists, but nobody has confirmed the page returns 200 and still contains the cited passage. **Flag: verify this one remaining link resolves before this ships.**
 
 No uncited factual claims found elsewhere in the piece — everything else is either Sanguine's own approved-proof language or a description of the reader's situation, neither of which requires external sourcing.
 
@@ -38,9 +46,10 @@ No uncited factual claims found elsewhere in the piece — everything else is ei
 Every proof point used traces to the snapshot's "Approved strategic proof" list: no-leads-pass-through-Sanguine, firm-first assessment, provider vetting (described as vetting, not certification), sources tested before broader delivery, ongoing management, direct commercial relationship, and the free lead-generation review offer. No figure, count, rate, named client, named provider, or testimonial appears anywhere in the draft — confirmed clean against the "Proof that is not yet approved" list (all still Unknown, none used).
 
 ## Compliance
-- The one claim the brief flagged as needing a currency check — the "free, no-obligation" lead-generation review offer — is correctly marked `STATUS: NEEDS REVIEW` on line one of `source.md`, with the claim quoted beneath it, per house rule.
+- **CTA currency confirmed.** The "free, no-obligation" lead-generation review offer is confirmed current; the `STATUS: NEEDS REVIEW` marker has been removed from `source.md`. The pack itself was also updated to drop its own "confirm free remains current before each campaign" caveat on this line (see Drift check).
 - Every other compliance flag from `brief.md` held: descriptive-only language for vetting/testing (no "certifies," "guarantees," "approves as compliant" found), no implied guarantee tied to the "test" stage, no named or ranked provider, no compensation/commission framing, and the required baseline disclosure appears in the body rather than only a footer.
-- **Routing gap (flag, not a draft defect):** the snapshot names no one who can actually sign off on this content. "Legal and ethics review," "Privacy and consent review," and "Final publication authority" are all listed as **Unknown; confirm internally** in the pack, and the one named role that does exist — Anthony Bux as business owner — carries its own "confirm title and authority before use" caveat (moot here since he isn't named in this draft). Since this piece falls squarely inside "any description of provider vetting, testing, due diligence or acceptance criteria" — the pack's own top compliance-review category — it cannot be routed to a named signatory as things stand. This needs to be resolved internally (naming the actual legal/ethics reviewer and final approver) before this piece, or any SLS content, can clear a real sign-off step.
+- **Signatory named, routing resolved.** The pack now names Sue Foley, CMO & President, Sanguine Marketing Solutions, as Brand and marketing owner, confirmed in chat as the approver for this piece. That closes the original routing gap for this content.
+- **Worth flagging on its own:** the pack update didn't just add Sue Foley — it replaced a six-role sign-off list (which had three roles marked Unknown) with a two-role list, and the three dropped roles were **Legal and ethics review**, **Privacy and consent review**, and **Final publication authority**. Those weren't filled in, they were removed. For this specific piece that's not a blocker — Sue Foley's sign-off as Brand and marketing owner is the approval this content needs, and Anthony Bux remains named as Business owner — but the pack no longer names anyone responsible for legal/ethics or privacy review on SLS content generally. Worth a quick internal check that this was the intended change and not just consolidation for speed.
 
 ## Voice
 - The single idea holds to the two-sentence rule (brief's own "single idea" statement is two sentences; the draft's opening paragraph mirrors it in two sentences).
@@ -52,23 +61,35 @@ Every proof point used traces to the snapshot's "Approved strategic proof" list:
 No hedged or templated language flagged.
 
 ## Links and UTMs
-- Three external citation links present, all plain URLs (no UTM parameters), which is appropriate for outbound citations to third-party sources.
+- One external citation link remains, a plain URL (no UTM parameters), which is appropriate for an outbound citation to a third-party source.
 - No internal Sanguine links or CTAs carry a URL yet — `source.md` is prose referencing CTA labels ("Request a Lead-Generation Review," "Book a Call"), not live hyperlinks, so there is nothing to build or check a UTM against at this stage. This should be revisited once the piece is placed on an actual landing page or in an atomized channel variant with real links.
-- See **Claims and citations** above for the link-resolution flag on the three footnotes.
+- See **Claims and citations** above for the link-resolution flag on the remaining footnote.
 
 ## Derivation
 No channel variants exist in this folder yet (`/atomize` hasn't been run). Nothing to check here — noting it so this isn't mistaken for an oversight.
 
 ## Drift check
-Fetched the live Notion page (`https://app.notion.com/p/c65ec04601ef83d6846b01021359d17b`) and compared against `brand-pack-snapshot.md`. **No drift.** The live page's `page_last_edited_at` (2026-09-11T03:12:12.015Z) predates the snapshot's fetch timestamp (2026-09-11T03:12:53.179Z) — the snapshot was taken after the last edit and the full content matches word-for-word. The pack has not moved since the brief was approved; this piece is still being produced against current rules.
+**First pass (initial QA):** fetched the live Notion page and compared against the snapshot. No drift — the live page's `page_last_edited_at` (2026-09-11T03:12:12.015Z) predated the snapshot's fetch timestamp (2026-09-11T03:12:53.179Z), and the full content matched word-for-word.
+
+**Second pass (this update):** re-fetched the live page after being told the pack had changed. It had — `page_last_edited_at` moved to 2026-09-11T04:42:31.842Z. Two changes, confirmed by close comparison against the snapshot (line-by-line diff on the retyped coverage-map and sign-off sections; the rest of the pack was read through in full and found unchanged):
+
+1. **Coverage map, "lead-generation review" row:** the notes column dropped "third-party" from the service description and dropped the sentence "Confirm that **free** remains current before each campaign" entirely. The offer is now stated as simply current.
+2. **"Who signs off"** was rewritten from six roles (Business owner, Brand and marketing owner, Legal and ethics review, Privacy and consent review, Provider claims, Final publication authority — three of them Unknown) down to two: Business owner (Anthony Bux, VP, Sanguine Legal Solutions) and Brand and marketing owner (Sue Foley, CMO & President, Sanguine Marketing Solutions).
+
+`brand-pack-snapshot.md` has been updated in place to match, with a note at the top of the file recording what changed and when, per the house rule that a piece is produced against one fixed version of the rules and any mid-production pack edit gets surfaced rather than silently absorbed. Nothing else in the pack moved — the coverage map, proof lists, voice rules, compliance sections (other than sign-off), channels, and pillars are all unchanged from the version this piece was briefed and drafted against.
 
 ## Summary of flags
-1. Verify the three footnoted external links resolve and still contain the cited claims (sandbox network policy blocked direct verification this session).
-2. Tighten or soften the [^3] citation — the "racing to call" framing isn't confirmed as Mohr Marketing's own wording.
-3. Spot-check [^2]'s exact "resold, recycled, or re-aged... in writing" claim against the live page before publish.
-4. Confirm the free lead-generation-review offer is still current (already marked `STATUS: NEEDS REVIEW` in `source.md`).
-5. No named signatory exists in the pack for legal/ethics review or final publication authority — this needs to be resolved internally before any SLS content, including this piece, can get a real compliance sign-off.
 
-None of these are defects in what was drafted — the copy stays inside every guardrail the snapshot sets. They're gaps in verification and in the pack's own sign-off chain that a human needs to close before this goes live.
+**Resolved this update:**
+1. ~~Tighten or soften the [^3] citation~~ — cut, along with the claim it supported.
+2. ~~Spot-check [^2]~~ — cut, along with the claim it supported.
+3. ~~Confirm the free lead-generation-review offer is still current~~ — confirmed; `STATUS: NEEDS REVIEW` removed from `source.md`; the pack's own caveat on this line was also dropped.
+4. ~~No named signatory for sign-off~~ — resolved; Sue Foley, CMO & President, Sanguine Marketing Solutions, confirmed as the approver for this piece via the pack's "Brand and marketing owner" role.
+
+**Still open:**
+1. Verify the one remaining footnoted link (Kurios) resolves and still contains the cited claim — sandbox network policy blocked direct verification this session; only re-confirmed via search index.
+2. Worth an internal check (not blocking this piece): the pack's sign-off list no longer names anyone for legal/ethics review, privacy/consent review, or final publication authority — those roles were removed rather than filled in when Sue Foley was added. Confirm that was intentional.
+
+Nothing in the copy itself was ever a defect — the draft stayed inside every guardrail the snapshot set from the first pass. What's left is one live-link check and one internal question about the pack's own sign-off coverage going forward.
 
 **PASS WITH FLAGS**

@@ -1,13 +1,10 @@
-STATUS: NEEDS REVIEW
-> Claim: "Request a free, no-obligation lead-generation review" (CTA). The snapshot approves this offer "based on the supplied business brief" but requires confirming it's still current before each campaign — that confirmation hasn't happened for this draft.
-
 # A lead source is only as strong as what happens after launch
 
 Most firms already know to vet a lead provider before they sign. Fewer know that a clean answer to a vetting questionnaire proves the vendor is good at answering questions, not that the source will work for your firm.
 
 ## The questions everyone already asks
 
-Ask around, or search for "how to vet a personal injury lead vendor," and you'll find the same solid checklist repeated across the legal-marketing industry: is this vendor generating the lead itself, or reselling something bought from someone else and marked up?[^1] Is the lead exclusive to your firm, or shared with several others racing to call the same person first?[^3] Has it been resold, recycled, or re-aged, and will the vendor put that answer in writing?[^2]
+Ask around, or search for "how to vet a personal injury lead vendor," and you'll find the same solid checklist repeated across the legal-marketing industry, starting with the most revealing question of all: is this vendor generating the lead itself, or reselling something bought from someone else and marked up?[^1]
 
 These are the right questions. None of them are wrong to ask. The problem is what happens after you ask them: the vendor answers, the answer sounds good, and the firm signs.
 
@@ -51,5 +48,3 @@ The firm and the selected provider contract directly with each other. Sanguine d
 If your firm is currently running third-party lead generation, or evaluating a new provider, Request a Lead-Generation Review: a free, no-obligation look at your current approach against this model. Or Book a Call to talk through what a specific decision looks like for your case types and market.
 
 [^1]: [How to Vet a Lead Vendor: A Checklist for Law Firms](https://kuriosbrand.com/guides/how-to-vet-a-lead-vendor/), Kurios.
-[^2]: [How to Vet an MVA Lead Provider: 12 Questions to Ask](https://exclusiveleadsagency.com/2026/08/04/vet-mva-lead-provider-questions/), Exclusive Leads Agency.
-[^3]: [Exclusive Personal Injury Leads: A 2026 Guide to High-Intent Case Acquisition](https://www.mohrmktg.com/exclusive-personal-injury-leads-a-2026-guide-to-high-intent-case-acquisition/), Mohr Marketing.

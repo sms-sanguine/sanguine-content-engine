@@ -1,6 +1,13 @@
 <!-- BRAND PACK SNAPSHOT — fetched live from Notion for this piece. Do not edit by hand. -->
 <!-- source: https://app.notion.com/p/c65ec04601ef83d6846b01021359d17b | fetched: 2026-09-11T03:12:53.179Z -->
 <!-- Every later step in this content folder (brief, draft, qa) reads THIS file, not Notion. -->
+<!-- RE-SYNCED mid-production: 2026-09-11T04:42:41.967Z. /qa found the live pack had moved (see qa.md drift check). -->
+<!-- Two changes pulled in per explicit approval in chat: (1) the lead-generation-review coverage-map note dropped the -->
+<!-- "confirm free remains current each campaign" caveat — the offer is now stated as current without that recurring check. -->
+<!-- (2) "Who signs off" was rewritten from six roles (several Unknown) down to two named roles, adding Sue Foley, -->
+<!-- CMO & President, Sanguine Marketing Solutions, as Brand and marketing owner. See qa.md for the full diff and an -->
+<!-- open question this raised: the prior Legal/ethics review, Privacy/consent review, and Final publication authority -->
+<!-- rows were removed rather than filled in. -->
 
 ## What this brand actually does
 Sanguine Legal Solutions helps personal injury law firms access lead sources that have been vetted and tested, then stays involved to help the firm and provider perform successfully together.
@@ -26,7 +33,7 @@ Use only the names listed here. Do not invent products, packages or service tier
 |---|---|---|---|
 | Brand | **Sanguine Legal Solutions** | Sanguine Law; Sanguine Legal; SLS in public copy | Use **SLS** only as an internal abbreviation. |
 | Parent brand | **Sanguine Collective** | The Sanguine Group; Sanguine Companies | Use only when explaining the broader brand family. |
-| Core service | **lead-generation review** | lead audit as the default public name; lead quality guarantee | A free, no-obligation review of a firm's current third-party lead-generation approach. Confirm that **free** remains current before each campaign. |
+| Core service | **lead-generation review** | lead audit as the default public name; lead quality guarantee | A free, no-obligation review of a firm's current lead-generation approach. |
 | Core service | **provider matching** | lead matching; lead brokerage; provider marketplace | Sanguine matches the law firm with providers. It does not match, route or transfer individual consumer leads. |
 | Core process | **provider vetting** | provider certification; Sanguine-approved leads; guaranteed vendor | Vetting reduces uncertainty. It does not certify compliance, quality or future results. |
 | SLS model | **Vet. Test. Deliver. Manage.** | Find. Match. Leave.; guaranteed lead delivery | The four-part operating model. Preserve the words and order. **Deliver** means bringing tested sources to suitable firms in the network, not transferring consumer data through Sanguine. |
@@ -250,12 +257,9 @@ Use approved wording for the asset and commercial arrangement. At minimum, publi
 - **Partner content:** Providers may use only current, approved Sanguine language. Sanguine must review co-branded claims before release.
 
 ### Who signs off
-- **Business owner:** VP, Legal Solutions, or formally delegated SLS leader. Current named owner: **Anthony Bux; confirm title and authority before use.**
-- **Brand and marketing owner:** President, Sanguine Marketing Solutions, or formally delegated marketing lead.
-- **Legal and ethics review:** Named attorney responsible for legal advertising and referral-model review: **Unknown; confirm internally.**
-- **Privacy and consent review:** Named privacy or compliance owner: **Unknown; confirm internally.**
-- **Provider claims:** The named provider must approve its product, performance, consent and commercial statements.
-- **Final publication authority:** **Unknown; record the approver, evidence source and approval date for every campaign.**
+- **Business owner:** Anthony Bux; VP, Sanguine Legal Solutions
+- or
+- **Brand and marketing owner:** Sue Foley, CMO & President, Sanguine Marketing Solutions
 
 ## Channels
 The strongest channels are those that support trust, specificity and a senior commercial conversation.
